@@ -18,6 +18,7 @@ mkdir $path
 		"Languages",
 		"Patches",
 		"Songs",
+		"Sounds",
 		"Source",
 		"Textures"
 	) | %{ Copy-Item -Recurse "$PSScriptRoot\$base\$_" "$path\$base\$_" }
