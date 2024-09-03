@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/SoundDef[defName="Speech_Throne_Male"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/SoundDef[defName="Speech_Throne_Female"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Leader_Male"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Leader_Female"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Ideoligious_Male"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Ideoligious_Female"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Funeral_Male"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+		<xpath>/Defs/SoundDef[defName="Speech_Funeral_Female"]/subSounds/li/grains/li/clipFolderPath</xpath>
+		<value>
+			<clipFolderPath>MinecraftVillager</clipFolderPath>
+		</value>
+	</Operation>
+</Patch>
