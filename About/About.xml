@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Sounds Like a Minecraft Villager</name>
+	<author>1trickPwnyta</author>
+	<packageId>soundslikeaminecraftvillager.1trickPwnyta</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>
+
+
+=== Credits ===
+Mod icon: twitter.com/mouse_draws
+	</description>
+	<url>https://github.com/1trickPwnyta/SoundsLikeaMinecraftVillager</url>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
