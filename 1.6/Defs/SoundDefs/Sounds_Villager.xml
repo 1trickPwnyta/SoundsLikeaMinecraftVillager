@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>Minecraft_Villager</defName>  
+    <context>MapOnly</context> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>MinecraftVillager</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>15</volumeRange>
+        <pitchRange>0.75~1.25</pitchRange>
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
